@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #555;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 70%;
+padding-right:20px;
+}
+
+h2 {
+  font-size: 1.3rem;
+  color:blue;
+border-bottom:1px solid blue;
+width:30%;
+letter-spacing:.2rem;
+}
+
+footer {
+  margin-top: 70px;
+  
+}
+
+ol li:nth-child(odd) {
+  background: #DAE8F2;
+}
+
+ol li {
+  cursor: pointer;
+  position: relative;
+  padding:10px;
+  background:#fff;
+  font-size:16px;
+}
+
+ol {
+  list-style-type: none;
+}
+.checked {
+    text-decoration: line-through;
+    color:red;
+}
+.close {
+    position:absolute;
+    right:0;
+   top:0;
+   padding:12px 12px 8px 12px;
+    
+}
+.close:hover {
+    background-color: black;
+    color:white;
+    
+}
+.header {
+  background-color:pink;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  border-radius:3px;
+}
+input {
+ width:60%;
+ padding:2px;
+ font-size:16px;
+
+}
+
+.addBtn {
+  background: black;
+  color: white;
+  width:25%;
+  border: 0px;
+  font-size: 16px;
+  margin: 10px 0 0;
+  cursor: pointer;
+  padding:2px 5px;
+  border-radius:3px;
+}
+.addBtn:hover {
+  background: #DD1111;
+}
+
+input[type="text"] {
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  color: #555;
+  
+}
+
+input[type="text"]:focus {
+  color: #333;
+}
+#myDIV {
+  padding-left:1rem;
+}
