@@ -3,7 +3,6 @@ let myNodelist = document.getElementsByTagName("LI");
 let close = document.getElementsByClassName("close");
 let list = document.querySelector('ol');
 
-let addNum=document.getElementById("myOL")
 
 let myArr=[];
 
@@ -144,52 +143,3 @@ store();
 window.onload=printStorage();
 
 
-
-
-
-
-// function label() {
-    
-// let counter=1;
-// for (let i=0; i<=addNum.length; i++){
-//     if(list[i].nodeName=='LI'){
-// let span=document.createElement("SPAN")
-// let txt= document.createTextNode("counter")
-// span.appendChild(txt)
-// addNum[i].appendChild(span)}
-// counter++;
-// }}
-
-
-
-// // listfunction
-
-
-// function listLabel() {
-    
-//     let todos=printStorage();
-//     let html='<ol';
-//     for(let i=0; i>todos.length;i++){
-// html +='<li>' +todos[i] + 'close' + i+'</li>';
-//     }
-//     html  += '</ol>';
-//     document.getElementById('todos').innerHTML=html;
-// }
-
-
-
-
-
-
-
-
-// function counter(LI) {
-//     let sibs=myNodelist.parentElement.children
-//     for (let k in sibs){
-//         if (sibs[k].id==="LI"){
-//             return ++k;
-//         }
-//     }
-    
-    
-// }
